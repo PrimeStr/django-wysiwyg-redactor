@@ -1,6 +1,10 @@
 History
 =======
 
+0.5.1.3 Oct 30, 2018
+
+ * Fix broken render for django 2.1.1
+
 0.5.1 Apr 1, 2017
 
  * Upgrade to Redactor II 2.4
