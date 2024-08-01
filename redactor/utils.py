@@ -1,13 +1,9 @@
-from django.core.exceptions import ImproperlyConfigured
+import json
 from importlib import import_module
 
-try:
-    from django.utils.encoding import force_text
-except ImportError:
-    from django.utils.encoding import force_text
+from django.core.exceptions import ImproperlyConfigured
+from django.utils.encoding import force_str as force_text
 from django.utils.functional import Promise
-
-import json
 
 
 def import_class(path):
