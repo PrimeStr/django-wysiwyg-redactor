@@ -1,5 +1,5 @@
 
-from django.conf.urls import url
+from django.urls import url
 
 from redactor.views import RedactorUploadView
 from redactor.forms import FileForm, ImageForm
